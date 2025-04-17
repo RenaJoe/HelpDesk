@@ -103,7 +103,6 @@
                             <th>Apellido</th>
                             <th>Usuario</th>
                             <th>Activo</th>
-                            <th>Pasivo</th>
                         </tr>
                     </thead>
                     <tbody>
