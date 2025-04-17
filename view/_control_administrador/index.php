@@ -100,7 +100,7 @@
                     <thead class="blue-custom white-text">
                         <tr>
                             <th>Nombre</th>
-                            <th>NOMBRE 2</th>
+                            <th>Apellido</th>
                             <th>Usuario</th>
                             <th>Activo</th>
                         </tr>
