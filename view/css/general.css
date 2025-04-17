@@ -1,0 +1,127 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.tbl-layout-01 thead th {
+    background-color: #263238;
+    color: #ffffff;
+}
+
+.tbl-layout-01 tbody td:nth-child(1) {
+    font-weight: bold;
+}
+
+.card-judicial {
+    border: 3px solid #313341;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
+.card-judicial span {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: #7e7a7a;
+}
+
+.card-judicial table {
+    width: 100%;
+}
+
+.card-judicial table td {
+    border-bottom: 1px solid #7e7a7a;
+    padding: 4px;
+}
+
+.card-judicial i {
+    font-size: 30px;
+    color: #ff1111;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.input-field input, .input-field textarea, .input-field select {
+    text-align: left; 
+}
+
+  
+/* Cambia el color del checkbox y radio al estar seleccionados */
+input[type="checkbox"]:checked + span::before,
+input[type="radio"]:checked + span::before {
+    border: 2px solid orange;
+    background-color: orange;
+}
+
+input[type="checkbox"]:checked + span,
+input[type="radio"]:checked + span {
+    color: orange; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.user-image {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sidenav {
+    width: 300px;
+}
+
+.nav-wrapper {
+    padding: 0 15px;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table.striped > tbody > tr:hover {
+    background-color: #ffecb3 !important; /* Color hover suave */
+}
+
+.striped > thead > tr {
+    background-color: #ffa726 !important; /* Encabezado naranja */
+    color: white;
+}
+
+.striped > tbody > tr:nth-child(odd) {
+    background-color: #fff; /* Blanco filas impares */
+}
+
+.striped > tbody > tr:nth-child(even) {
+    background-color: #f1f1f1; /* Gris claro filas pares */
+}
+
+.sidenav .btn {
+    margin: 20px;
+}
+
+h2, .card-title {
+    font-weight: 500;
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+}

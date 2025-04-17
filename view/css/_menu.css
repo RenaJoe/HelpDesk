@@ -1,0 +1,48 @@
+.reset{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.dv-here{
+    margin: 0;
+    padding: 0 !important;
+    width: 100%;
+    font-size: 12px;
+    color: #ca1010;
+}
+.autoC{
+    display: none;
+    z-index: 1;
+    width: 100%;
+    background-color: #cc1515;
+    position: absolute;
+    top: 46px;
+    cursor: pointer;
+}
+.autoC li{
+    padding: 5px;
+}
+.autoC li:hover{
+    background-color: #EEEEEE;
+}
+.auto-complete{
+    display: none;
+    z-index: 1;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.auto-complete li{
+    padding: 5px;
+}
+.auto-complete li:hover{
+    background-color: #EEEEEE;
+}
+
+.lg-logo{
+    padding: 0;
+    padding-top: 5px;
+    text-align: center;
+    line-height: 20px !important;
+}

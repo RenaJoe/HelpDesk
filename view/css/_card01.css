@@ -1,0 +1,48 @@
+.card-custom {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+.card-custom-header {
+	background-color: #184417;
+	color: #ffffff;
+	padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.card-custom-header table td{
+    padding: 0;
+}
+
+.card-custom-header table td:nth-child(2){
+    text-align: center;
+}
+
+.card-custom-header table td:nth-child(3){
+    text-align: right;
+}
+
+.card-custom-header table tr{
+    border-bottom: 0;
+}
+
+.card-custom-body{
+    padding: 10px 20px;
+}
+
+.card-custom-body .row{
+    margin-bottom: 0;
+}
+
+.card-custom-body p{
+    font-size: 12px;
+}
+
+.card-custom-body ul li{
+    list-style: square inside;
+    font-size: 10px;
+}

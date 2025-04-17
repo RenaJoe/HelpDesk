@@ -1,0 +1,213 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-image: url(../../view/img/_login/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    background:#d0e8ee;
+    margin: auto;
+    margin-top: 6%;
+    width: 450px;
+    border-radius: 6px;
+    padding: 50px 25px;
+    box-shadow: rgba(15, 121, 241, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+form > .tit,.tit-npt,.npt,span{
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.tit{
+    text-align: center;
+    font-size: 28px;
+    height: 80px;
+    color:#4b4c4d;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+.tit-npt{
+    font-size: 12px;
+    color: #808080;
+}
+
+.npt{
+    padding:14px;
+    border:0;
+    border-bottom: 2px solid #7d7e80;
+    margin-bottom:12px;
+    color:#7f8c8d;
+    font-weight:600;
+    font-size:16px;
+    background-color: transparent;
+}
+
+#form span{
+    display: block;
+    width: 100%;
+    height: 15px;
+}
+
+.npt:focus{
+    outline: none;
+}
+
+span{
+    color: #FF2E2E;
+    font-size: 12px;
+}
+
+strong{
+    display: block;
+    width: 100%;
+    text-align: right;
+    color: #afafaf;
+    font-size: 12px;
+}
+
+button{
+    border: 0;
+    width:100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    background:#3498db;
+    color:#fff;
+}
+
+button:hover{
+    background-color: #3a9fe2;
+}
+
+#alerta{
+    display: none;
+    margin: auto;
+    margin-top: 20px;
+    width: 280px;
+    padding: 10px 5px;
+    background-color: #FFABAB;
+    border: 1px solid #FE7C7C;
+    border-left: 3px solid  #FE7C7C;
+    border-bottom: 3px solid  #FE7C7C;
+    color: #FF2E2E;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: -11px 10px 15px 0px rgba(0,0,0,0.40);
+}
+
+.center{
+    text-align: center;
+}
+
+.alert-sys{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 275px;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+.alert-sys .header{
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.alert-sys .body{
+    width: 100%;
+    padding: 0 15px;
+    border:1px solid #3498db;
+    border-radius: 0 0 10px 10px;
+}
+
+.alert-sys .body ul{
+    padding-inline-start: 10px !important;
+}
+
+.alert-sys .body ul li{
+    position: relative;
+    list-style-type: none;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.alert-sys .body ul li:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00a8a8;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+/*-----------------------------*/
+
+@media only screen and (max-width: 1025px) {
+    .alert-sys{
+        position: initial;
+        margin: auto;
+        margin-top: 25px;
+        width: 450px;
+    }
+}
+
+/*-----------------------------*/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
